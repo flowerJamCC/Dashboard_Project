@@ -1,0 +1,22 @@
+.profile-pic img{
+    border: 1 px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.profile-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.prof-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    text-decoration: underline 1px solid gray;
+}

@@ -1,0 +1,39 @@
+table{
+    border: 1px solid black;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    /* max-height: 300px; */
+}
+tr{
+    border: 1px solid black;
+    padding: 5px;
+}
+th{
+    border: 1px solid black;
+    padding: 5px;
+}
+td{
+    border: 1px solid black;
+    padding: 5px;
+    /* max-height: 20px; */
+}
+
+table a {
+    color: black;
+    text-decoration: none;
+}
+
+.table-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 100px 15px 100px;
+    max-height: 300px;
+}
+
+.users-buts{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}

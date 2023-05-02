@@ -1,0 +1,30 @@
+nav a {
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+.nav-drawer{
+    background-color: #202A44;
+}
+
+a:hover {
+    color: orange;
+}
+
+.toolbar {
+    background-color: #202A44;
+    color: #f7f7f7;
+    font-family: 'roboto';
+    font-size: 45px;
+}
+
+.nav-list{
+    background-color: #202A44;
+    min-height: 100%;
+}
+.MuiDrawer-root, .MuiDrawer-paper{
+    background-color: #202A44 !important;
+}
+.active-list-button {
+    color: orange !important;
+}

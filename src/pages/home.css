@@ -1,0 +1,39 @@
+h1 span {
+    color: navy;
+}
+
+.h1{
+    color: rgb(75,75,75);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.home-main{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home-button{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    
+}
+
+p{
+    color: rgb(75,75,75);
+    font-family: 'roboto';
+    font-size: 20px;
+}
+
+#game{
+    color:navy;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}

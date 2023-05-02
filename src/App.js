@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route, Link, NavLink, useNavigate } from 'react-router-dom';
+import ResponsiveDrawer from './components/Navbar';
+import Home from './pages/Home';
+import Statistics from './pages/Statistics';
+import Card from './components/Card';
+import Topbar from './components/Topbar';
+import Users from './pages/Users';
+import Footer from './components/Footer';
+import Profile from './pages/Profile';
+import Documentation from './pages/Documentation';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ResponsiveDrawer />
+      {/* <Topbar /> */}
+      <main>
+      <Routes>
+        <Route path='/home' element={<Home />} />
+        <Route path='/statistics' element={<Statistics />} />
+        <Route path='/users' element={<Users />} />
+        <Route path='/documentation' element={<Documentation />} />
+        <Route path='/users/:id'  element={<Profile/>} />
+      </Routes>
+      <Footer />
+      </main>
+      
     </div>
   );
 }

@@ -1,0 +1,67 @@
+.stats-card {
+    min-width: 250px;
+    
+}
+
+.big-card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.left-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    
+}
+
+.bottom-card-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.icon-circle{
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-card{
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.value-card{
+    font-size: 22px;
+}
+
+.dolla{
+    color: lightgreen;
+    font-weight: 700;
+}
+
+.date-ele{
+    color: red;
+}
+
+.percent-sign{
+    color: lightgreen;
+    font-weight: 900;
+}
+
+.up-arrow{
+    color: lightgreen;
+    
+}
+
+.mon-icon{
+    color: maroon;
+}
